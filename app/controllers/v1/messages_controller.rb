@@ -1,12 +1,6 @@
 class V1::MessagesController < ApplicationController
   def index
-    render json: {:messages => [
-      {
-        :message => 'some-thing',
-      },
-      {
-        :message => 'some-thing2',
-      }
-    ]}.to_json
-  end
+    @message = Message.all.order('random()').limit(1)
+    render json: { :greeting => @message }.to_json
+  end 
 end
