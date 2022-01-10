@@ -4,10 +4,6 @@
 
 > This exercise is to have me connect previous knowledge with new knowledge as I get a chance to use the react-rails gem. This gem allows me to build React components as a part of my Rails JavaScript and serve it in a component, react_component, to be used in a regular ERB file.
 
-## Screenshot
-
-<!-- ![screenshot](./app/assets/images/image1.png) -->
-
 ## The learning objective of this project are
 
 - Use controllers to handle requests and render empty views.
