@@ -7,7 +7,6 @@ const initialState = {
 };
 
 function rootReducer(state, action) {
-  console.log(action.type);
   switch (action.type) {
     case "GET_MESSAGES_SUCCESS":
       return {

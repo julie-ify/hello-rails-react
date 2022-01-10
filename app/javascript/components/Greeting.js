@@ -7,7 +7,6 @@ const GET_MESSAGES_REQUEST = 'GET_MESSAGES_REQUEST';
 const GET_MESSAGES_SUCCESS = 'GET_MESSAGES_SUCCESS';
 
 function getMessages() {
-  console.log('getMessages() Action!!');
   return (dispatch) => {
     dispatch({ type: GET_MESSAGES_REQUEST });
     return fetch(`v1/messages.json`)
